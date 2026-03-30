@@ -7,7 +7,8 @@ console.log(nome);
 
 let bim1: number | undefined = undefined; //a variável pode ser do tipo number ou undefined
 console.log(bim1);
-
+bim1 = 75
+console.log(bim1);
 
 /* outra = 'agata'; //ERRADO, pois a variável foi definida como boolean e não pode receber uma string
 console.log(outra); */
