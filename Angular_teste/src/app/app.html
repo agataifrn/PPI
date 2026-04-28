@@ -1,0 +1,17 @@
+<h1>Turma {{ nomeTurma }}</h1>
+
+<table>
+  <tr>
+    <th>Disciplina</th>
+    <th>Docente</th>
+    <th>Carga Horária</th>
+  </tr>
+
+  @for(d of disciplinas; track d.nome) {
+    <tr>
+      <td>{{ d.nome }}</td>
+      <td>{{ d.professor }}</td>
+      <td>{{ d.cargaHoraria }}</td>
+    </tr>
+  }
+</table>
